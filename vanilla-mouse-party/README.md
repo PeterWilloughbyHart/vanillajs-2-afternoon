@@ -150,8 +150,8 @@ window.addEventListener("mousemove", function(e){
   mousePosition.y = e.pageY;
 });
 
-function draw(){
-  return setInterval(function() {
+function draw() {
+  return setInterval(function () {
     const container = document.getElementById("wrap");
     const color = `background:rgb(${getRandomNumber(0, 255)},${getRandomNumber(
       0,
